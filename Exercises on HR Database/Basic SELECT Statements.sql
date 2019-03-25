@@ -75,5 +75,5 @@ FROM employees
 LIMIT 10;
 
 # 19.Write a query to get monthly salary (round 2 decimal places) of all employees.
-SELECT ROUND(salary/12, 2) as "Monthly salary"
+SELECT ROUND(salary/12, 2) AS "Monthly salary"
 FROM employees;
